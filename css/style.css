@@ -113,6 +113,10 @@ img{
     outline: none;
 }
 
+.showcase::before,.showcase::after{
+    content: '';
+}
+
 
 /* Utilities */
 .container{
